@@ -47,7 +47,7 @@ VGG-16
 Task 4: Print the summary of the model 
 
 Task 5: Compile the model 
-Fit and train the model 
+Fit and train the model, 
 Plot loss curves for training and validation sets (extract_feat_model) 
 
 Task 6: Plot accuracy curves for training and validation sets (extract_feat_model) 
