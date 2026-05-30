@@ -24,10 +24,12 @@ Both models are loaded from disk, run predictions on 100 test images, and a clas
 The key takeaway: Fine-tuning generally outperforms pure feature extraction because it allows the pre-trained model to slightly adjust its learned features to better fit the new task. 
 
 
+
+
 Procedural Setup 
 
--Install Required Libraries(numpy, sklearn, matplotlib, tensorflow)
--Import Required Libraries 
+Install Required Libraries(numpy, sklearn, matplotlib, tensorflow),
+Import Required Libraries 
 
 Task 1: Print the version of tensorflow 
 Import Dataset "Waste Classification data" from kaggle.com,
@@ -39,7 +41,7 @@ ImageDataGenerators
 Task 2: Create a test_generator using the test_datagen object 
 
 Task 3: Print the length of the train_generator 
-Pre-trained Models 
+Pre-trained Models, 
 VGG-16 
 
 Task 4: Print the summary of the model 
