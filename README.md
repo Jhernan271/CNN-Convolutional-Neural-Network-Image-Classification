@@ -30,17 +30,17 @@ Procedural Setup
 -Import Required Libraries 
 
 Task 1: Print the version of tensorflow 
-,Import Dataset "Waste Classification data" from kaggle.com
-,Create the o-vs-r-split directories in your environment
-,Define model configuration options 
-,Loading Images using ImageGeneratorClass 
-,ImageDataGenerators 
+Import Dataset "Waste Classification data" from kaggle.com,
+Create the o-vs-r-split directories in your environment,
+Define model configuration options, 
+Loading Images using ImageGeneratorClass, 
+ImageDataGenerators 
 
 Task 2: Create a test_generator using the test_datagen object 
 
 Task 3: Print the length of the train_generator 
-,Pre-trained Models 
-,VGG-16 
+Pre-trained Models 
+VGG-16 
 
 Task 4: Print the summary of the model 
 
