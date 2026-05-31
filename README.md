@@ -23,8 +23,9 @@ Both models are loaded from disk, run predictions on 100 test images, and a clas
 
 The key takeaway: Fine-tuning generally outperforms pure feature extraction because it allows the pre-trained model to slightly adjust its learned features to better fit the new task. 
 
-
-
+Final Accuracies: 
+Feature Extraction Model : 84%
+Fine-tuned Model: 86%
 
 Procedural Setup 
 
