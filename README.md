@@ -1,12 +1,14 @@
 CNN-Convolutional Neural Network Image Clasification System
 
+Waste Product Classifier Using Transfer Learning 
+
 (UPDATE: Github is having issues rendering ipynb files currently. If you would like to view this file, open up the .ipynb file, copy the permalink(More File Actions), then paste into nbviewer.com)
 
 This machine learning project is an image classification system that is built using Keras and Tensorflow to distinguish recyclable and organic waste images. This work originated as part of the final project of Course 2: Deep Learning with Keras and Tensorflow and the IBM AI Engineering Professional certificate program. It classifies images into two categories: Organic(O) or Recyclable(R). It focuses on developing an AI-powered image classification model to assist EcoClean, GreenCity’s waste management organization, in automating the sorting of recyclable and organic waste. Due to the inefficiencies and inaccuracies of manual waste sorting, the project aims to enhance the process using transfer learning with a pre-trained VGG16 model. By the end of the project, we will have prepared and preprocessed image data, applied and fine-tuned the VGG16 model, evaluated its performance using relevant metrics, and visualized its predictions, resulting in a trained model capable of accurately classifying waste images into recyclable or organic categories for real-world application. 
 
-Summary: Waste Product Classifier Using Transfer Learning 
-
 Goal: Build a model that looks at an image of waste and classifies it as either Organic (O) or Recyclable (R). 
+
+Simplified Overview
 
 1. Setup 
 Install and import libraries — TensorFlow, NumPy, Matplotlib, scikit-learn. Download a dataset of 1,200 waste images split into train and test folders. 
@@ -22,8 +24,6 @@ Reload VGG16 but unfreeze the last conv layer (block5_conv3), allowing it to ada
 
 5. Evaluation 
 Both models are loaded from disk, run predictions on 100 test images, and a classification report (precision, recall, F1-score) is printed for each. Individual test images are then plotted with their actual vs. predicted labels for visual inspection. 
-
-The key takeaway: Fine-tuning generally outperforms pure feature extraction because it allows the pre-trained model to slightly adjust its learned features to better fit the new task. 
 
 Final Accuracies: 
 Feature Extraction Model : 84%
