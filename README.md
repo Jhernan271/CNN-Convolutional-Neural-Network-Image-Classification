@@ -25,7 +25,7 @@ The key takeaway: Fine-tuning generally outperforms pure feature extraction beca
 
 Final Accuracies: 
 Feature Extraction Model : 84%
-Fine-tuned Model: 86%
+Fine-tuned Model: 87%
 
 Procedural Setup 
 
